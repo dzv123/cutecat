@@ -19,6 +19,9 @@
             color: blue;
             text-decoration: none;
         }
+        .namu {
+            color: green
+        }
         h1 {
             font-size:45px;
             text-align: center;
@@ -43,7 +46,18 @@
             padding: 25px;
             padding-top: 0px;
             display: grid;
-            grid-template-columns: 1fr 2fr
+            grid-template-columns: 260px 1fr;
+        }
+        @media(max-width:800px) {
+            #grid {
+            display: block;
+            }
+            h1 {
+                border-bottom:none;
+            }
+            ul {
+                border-right:none;
+            }
         }
     </style>
 </head>
@@ -58,11 +72,11 @@
         <div id="article">
             <div>
                 <h2>귀요미 모음집</h2>
-                <img src="catt.jpg" width="50%"> 
+                <img src="catt.jpg" height="315"> 
             </div>
             <div>
                 <h2>고양이 찾기 게임 동영상</h2>
-                <p> <iframe width="560" height="315" src="https://www.youtube.com/embed/A0JoWWL-xVY" 
+                <p> <iframe width="315" height="315" src="https://www.youtube.com/embed/A0JoWWL-xVY" 
                     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    </p>    
             </div>            
         </div>
