@@ -36,7 +36,7 @@ ul{
     padding: 25px;
     padding-top: 0px;
 }
-@media(max-width:800px) {
+@media(max-width:1090px) {
     #grid {
     display: block;
     }
